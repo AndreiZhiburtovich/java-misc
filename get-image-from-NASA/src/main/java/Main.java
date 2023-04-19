@@ -10,8 +10,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Main {
+    // ADD YOUR OWN API KEY HERE
+    static final String API_KEY = "ADD YOUR OWN API KEY HERE";
+
     // Our link we'll send the request to
-    public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=L8wikj3KflmG7KD9nBEH1QdqhcwoXWLwhaELp0cb";
+    public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=" + API_KEY;
 
     // Entity that will transform the response into our NASA object
     public static final ObjectMapper mapper = new ObjectMapper();
