@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Main {
     // ADD YOUR OWN API KEY HERE
-    static final String API_KEY = "ADD YOUR OWN API KEY HERE";
+    public static final String API_KEY = "ADD YOUR OWN API KEY HERE";
 
     // Our link we'll send the request to
     public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=" + API_KEY;
